@@ -1,0 +1,32 @@
+﻿  Reading Qt configuration (D:/tool/5.10.1/msvc2015/bin/qmake)
+  uic QCrushHandler.ui
+  rcc QCrushHandler.qrc
+  moc QCrushHandler.h
+   RCC: Warning: No resources in 'F:\WorkShop\Demos\QCrushHandler\QCrushHandler\QCrushHandler.qrc'.
+  QDump.cpp
+  QCrushHandler.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QDump.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QDump.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 main.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QCrushHandler.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 main.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QCrushHandler.cpp)
+  qrc_QCrushHandler.cpp
+  moc_QCrushHandler.cpp
+qBreakpad.lib(QBreakpadHandler.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(QBreakpadHandler.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+qBreakpad.lib(moc_QBreakpadHandler.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(moc_QBreakpadHandler.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+qBreakpad.lib(QBreakpadHttpUploader.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(QBreakpadHttpUploader.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+qBreakpad.lib(exception_handler.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(exception_handler.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+qBreakpad.lib(moc_QBreakpadHttpUploader.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(moc_QBreakpadHttpUploader.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+qBreakpad.lib(crash_generation_client.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(crash_generation_client.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+qBreakpad.lib(guid_string.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(QDump.obj 中)
+qBreakpad.lib(guid_string.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(QDump.obj 中)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+F:\WorkShop\Demos\QCrushHandler\Debug\QCrushHandler.exe : fatal error LNK1319: 检测到 14 个不匹配项

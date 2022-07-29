@@ -1,0 +1,17 @@
+﻿  Reading Qt configuration (D:/tool/5.10.1/msvc2015/bin/qmake)
+  uic QCrushHandler.ui
+  rcc QCrushHandler.qrc
+  moc QCrushHandler.h
+   RCC: Warning: No resources in 'F:\WorkShop\Demos\QCrushHandler\QCrushHandler\QCrushHandler.qrc'.
+  QDump.cpp
+  QCrushHandler.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QDump.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QDump.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QCrushHandler.cpp)
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 QCrushHandler.cpp)
+  qrc_QCrushHandler.cpp
+  moc_QCrushHandler.cpp
+qtmain.lib(qtmain_win.obj) : warning LNK4099: 未找到 PDB“qtmain.pdb”(使用“qtmain.lib(qtmain_win.obj)”或在“F:\WorkShop\Demos\QCrushHandler\Release\qtmain.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  QCrushHandler.vcxproj -> F:\WorkShop\Demos\QCrushHandler\Release\QCrushHandler.exe
+  QCrushHandler.vcxproj -> F:\WorkShop\Demos\QCrushHandler\Release\QCrushHandler.pdb (Full PDB)
